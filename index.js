@@ -63,35 +63,39 @@ const writeToFile = ({title, description, installation, usage, contribution, tes
 ${description}
 
 ## Table of Contents
-    -[Installation](#Installation)
-    -[Usage](#Usage)
-    -[Contributing](#Contributing)
-    -[Testing](#Testing)
-    -[License](#License)
-    -[Contact](#Contact)
+    1.[Installation](#Installation)
+    2.[Usage](#Usage)
+    3.[Contributing](#Contributing)
+    4.[Testing](#Testing)
+    5.[License](#License)
+    6.[Contact](#Contact)
 
-
+<a name="Installation"></a>
 ## Installation
 
 ${installation}
 
+<a name="Usage"></a>
 ## Usage
 
 ${usage}
 
+<a name="Contributing"></a>
 ## Contributing
 
 ${contribution}
 
+<a name="Testing"></a>
 ## Testing
 
 ${testing}
 
-
+<a name="License"></a>
 ## License
 
 ${license}
 
+<a name="Contact"></a>
 ## Contact
 
 You can find me at Github at ${github} or email directly at ${email}.`;
