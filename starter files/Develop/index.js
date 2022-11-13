@@ -63,12 +63,12 @@ const writeToFile = ({title, description, installation, usage, contribution, tes
 ${description}
 
 ## Table of Contents
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[Contributing](#contributing)
-    -[Testing](#testing)
-    -[License](#license)
-    -[Contact](#contact)
+    -[Installation](#Installation)
+    -[Usage](#Usage)
+    -[Contributing](#Contributing)
+    -[Testing](#Testing)
+    -[License](#License)
+    -[Contact](#Contact)
 
 
 ## Installation
