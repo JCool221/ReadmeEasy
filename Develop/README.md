@@ -1,8 +1,8 @@
 <!DOCTYPE md>
- # readme
+ # foo
 
 ## Description
-doo
+var
 
 ## Table of Contents
     1.[Installation](#Installation)
@@ -15,22 +15,22 @@ doo
 <a name="Installation"></a>
 ## Installation
 
-doot
+bar
 
 <a name="Usage"></a>
 ## Usage
 
-doot de doo
+not
 
 <a name="Contributing"></a>
 ## Contributing
 
-i'm sure it'll work this time
+var
 
 <a name="Testing"></a>
 ## Testing
 
-no idea
+lol
 
 <a name="License"></a>
 ## License
@@ -40,4 +40,4 @@ MIT
 <a name="Contact"></a>
 ## Contact
 
-You can find me at Github at lol or email directly at cool@gmail.com.
+You can find me at Github at foo or email directly at bar.
