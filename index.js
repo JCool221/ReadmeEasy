@@ -59,20 +59,19 @@ const questions = () => {
 // test function
 function badge(license) {
     console.log(license);
-    let licenseBadge;
     switch (license) {
         case 'MIT':
             console.log('first');
-        return 'MIT badge';
+        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
         case 'GNU GPL':
             console.log('second');
-        return "GNU GPL badge";
+        return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
         case 'Mozilla':
             console.log('third');
-        return 'Mozilla badge';
+        return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
         case 'Apache':
             console.log('fourth');
-        return 'Apache badge';
+        return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
     }
     
 };
@@ -117,7 +116,7 @@ ${testing}
 <a name="License"></a>
 ## License
 
-${license}${badge(license)}
+${license} ${badge(license)}
 
 <a name="Contact"></a>
 ## Contact
