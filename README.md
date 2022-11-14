@@ -35,7 +35,7 @@
 <a name="License"></a>
 ## License
 
-MITundefined
+MITMIT badge
 $licenseBadge}
 
 <a name="Contact"></a>
