@@ -52,23 +52,50 @@ const questions = () => {
             name: 'email',
             message: 'What is your email address?',
         },
-    ]);
+    ])
+    
 };
+
+// test function
+function badge(license) {
+    console.log(license);
+    let licenseBadge;
+    switch (license) {
+        case 'MIT':
+        licenseBadge = 'MIT badge';
+        console.log('first');
+        break;
+        case 'GNU GPL':
+        licenseBadge = "GNU GPL badge";
+        console.log('second');
+        break;
+        case 'Mozilla':
+        licenseBadge = 'Mozilla badge';
+        console.log('third');
+        break;
+        case 'Apache':
+        licenseBadge = 'Apache badge';
+        console.log('fourth');
+    }
+    
+};
+
 // TODO: Create a function to write README file
+// created function to write README file
 const writeToFile = ({title, description, installation, usage, contribution, testing, license, github, email}) =>
- `<!DOCTYPE md>
- # ${title}
+`<!DOCTYPE md>
+# ${title}
 
 ## Description
 ${description}
 
 ## Table of Contents
-    1.[Installation](#Installation)
-    2.[Usage](#Usage)
-    3.[Contributing](#Contributing)
-    4.[Testing](#Testing)
-    5.[License](#License)
-    6.[Contact](#Contact)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Testing](#testing)
+* [License](#license)
+* [Contact](#contact)
 
 <a name="Installation"></a>
 ## Installation
@@ -93,7 +120,7 @@ ${testing}
 <a name="License"></a>
 ## License
 
-${license}
+${license}${badge(license)} ${licenseBadge}
 
 <a name="Contact"></a>
 ## Contact
