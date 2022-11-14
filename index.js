@@ -62,20 +62,17 @@ function badge(license) {
     let licenseBadge;
     switch (license) {
         case 'MIT':
-        licenseBadge = 'MIT badge';
-        console.log('first');
-        break;
+            console.log('first');
+        return 'MIT badge';
         case 'GNU GPL':
-        licenseBadge = "GNU GPL badge";
-        console.log('second');
-        break;
+            console.log('second');
+        return "GNU GPL badge";
         case 'Mozilla':
-        licenseBadge = 'Mozilla badge';
-        console.log('third');
-        break;
+            console.log('third');
+        return 'Mozilla badge';
         case 'Apache':
-        licenseBadge = 'Apache badge';
-        console.log('fourth');
+            console.log('fourth');
+        return 'Apache badge';
     }
     
 };
@@ -121,7 +118,6 @@ ${testing}
 ## License
 
 ${license}${badge(license)}
-$licenseBadge}
 
 <a name="Contact"></a>
 ## Contact
