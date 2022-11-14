@@ -120,12 +120,15 @@ ${testing}
 <a name="License"></a>
 ## License
 
-${license}${badge(license)} ${licenseBadge}
+${license}${badge(license)}
+$licenseBadge}
 
 <a name="Contact"></a>
 ## Contact
 
-You can find me at Github at ${github} or email directly at ${email}.`;
+You can find me at Github at [${github}](https://github.com/${github}) or email me directly at [${email}](mailto:${email}?subject=[Github]Project%20Information.)
+
+Created with ReadmeEasy 😏`;
 
 // TODO: Create a function to initialize app
 const init = () => {

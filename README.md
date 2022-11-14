@@ -36,8 +36,11 @@
 ## License
 
 MITundefined
+$licenseBadge}
 
 <a name="Contact"></a>
 ## Contact
 
-You can find me at Github at  or email directly at .
+You can find me at Github at [](https://github.com/) or email me directly at [](mailto:?subject=[Github]Project%20Information.)
+
+Created with ReadmeEasy 😏
