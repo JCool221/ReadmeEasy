@@ -121,7 +121,8 @@ ${license} ${badge(license)}
 <a name="Contact"></a>
 ## Contact
 
-You can find me at Github at [${github}](https://github.com/${github}) or email me directly at [${email}](mailto:${email}?subject=[Github]Project%20Information.)
+You can find me on Github at [${github}](https://github.com/${github}) 
+or email me directly at [${email}](mailto:${email}?subject=[Github]Project%20Information.)
 
 Created with ReadmeEasy 😏`;
 
