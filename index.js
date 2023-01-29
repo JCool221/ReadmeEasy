@@ -1,8 +1,6 @@
-// TODO: Include packages needed for this application
 // include fs.promises and inquirer
 const inquirer = require('inquirer');
 const {writeFile} = require('fs').promises;
-// TODO: Create an array of questions for user input
 // generate prompts
 const questions = () => {
     return inquirer.prompt([
@@ -76,8 +74,7 @@ function badge(license) {
     
 };
 
-// TODO: Create a function to write README file
-// created function to write README file
+//  function to write README file
 const writeToFile = ({title, description, installation, usage, contribution, testing, license, github, email}) =>
 `<!DOCTYPE md>
 # ${title}
@@ -126,7 +123,7 @@ or email me directly at [${email}](mailto:${email}?subject=[Github]Project%20Inf
 
 Created with ReadmeEasy 😏`;
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 const init = () => {
     questions()
     .then((answers) => writeFile(`README.md`, writeToFile(answers)))

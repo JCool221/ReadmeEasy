@@ -1,8 +1,8 @@
 <!DOCTYPE md>
-# ReadmeEasy
+# Crudify
 
 ## Description
-To quickly generate a Readme.md file with Node
+A backend for a MongoDB driven crud application
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,12 +15,12 @@ To quickly generate a Readme.md file with Node
 <a name="Installation"></a>
 ## Installation
 
-use npm i from the command prompt to load the packages
+npm install to install packages but there is no front end at this time
 
 <a name="Usage"></a>
 ## Usage
 
-Use node index.js from the command prompt then follow the prompts
+See attached video for demonstration of the associated routes
 
 <a name="Contributing"></a>
 ## Contributing
@@ -40,7 +40,7 @@ MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https
 <a name="Contact"></a>
 ## Contact
 
-You can find me on Github at [jcool221](https://github.com/jcool221) 
+You can find me on Github at [Jcool221](https://github.com/Jcool221) 
 or email me directly at [jcool2939@gmail.com](mailto:jcool2939@gmail.com?subject=[Github]Project%20Information.)
 
 Created with ReadmeEasy 😏
