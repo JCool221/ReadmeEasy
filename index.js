@@ -124,12 +124,15 @@ or email me directly at [${email}](mailto:${email}?subject=[Github]Project%20Inf
 Created with ReadmeEasy 😏`;
 
 // Function to initialize app
-const init = () => {
-    questions()
-    .then((answers) => writeFile(`README.md`, writeToFile(answers)))
-    .then((answers) => console.log('Successfully created Readme, Good job!'))
-    .catch((err) => console.error(err));
-};
+const init = async () => {
+    try {
+        const answers = await questions();
+        await writeFile('README.md', writeToFile(answers))
+        console.log('Successfully created ReadMe, Good job!')
+    } catch (err) {
+        console.error(err)
+    }
+}
 
 // Function call to initialize app
 init();
